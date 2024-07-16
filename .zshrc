@@ -94,6 +94,7 @@ alias pa='$aurhelper -Ss' # list availabe package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code' # gui code editor
+
 # Helpful file management
 alias mkdir='mkdir -vp' # Makes the whole file path if it doesn't exist
 alias mv='mv -iv' #Promt confirmation before overwrite & verbose mode
@@ -106,13 +107,9 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
-# Always mkdir a path (this doesn't inhibit functionality to make a single dir)
-#alias mkdir='mkdir -p'
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1
 export EDITOR=vim
-#just another test
