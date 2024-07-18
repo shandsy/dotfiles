@@ -112,4 +112,4 @@ alias .5='cd ../../../../..'
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1
-export EDITOR=vim
+export EDITOR=neovim
